@@ -19,12 +19,19 @@
 
 
 #2 Create file
+# with open('test.txt', 'r') as m:    #create a file in write mode
+#     with open('test1.txt', 'w') as wf:
+#         for line in m:
+#             wf.write(line)
+    # m.write('I am the King')
+    # m.close()
+
+
+# chunk file size
 with open('test.txt', 'r') as m:    #create a file in write mode
     with open('test1.txt', 'w') as wf:
-        for line in m:
-            wf.write(line)
-    # m.write('I am Legend')
-    # m.close()
+        chunk_size = 4096
+        m_chunk = m.read(chunk_size)
 
 
 # # print(f.mode)
