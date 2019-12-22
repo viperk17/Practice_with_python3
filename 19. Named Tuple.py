@@ -2,11 +2,8 @@ from collections import namedtuple
 
 '''SQL DB Connection'''
 # import sqlite3
-#
 # conn = sqlite3.connect('employee.db')
-#
 # c = conn.cursor()
-#
 # c.execute("""CREATE TABLE employees (
 # first text,
 # last text,
