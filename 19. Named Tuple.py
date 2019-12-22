@@ -1,4 +1,5 @@
 from collections import namedtuple
+
 '''SQL DB Connection'''
 # import sqlite3
 #
@@ -14,8 +15,9 @@ from collections import namedtuple
 # conn.commit()
 # conn.close()
 
-dict_color ={'red': 55, 'green': 155, 'blue': 255}
-Color = namedtuple('Color', ['red','green','blue'])
-color = Color(55,125,255)
+dict_color = {'red': 55, 'green': 155, 'blue': 255}
+Color = namedtuple('Color', ['red', 'green', 'blue'])
+color = Color(55, 125, 255)
 # white = Color(255,255,255)
 print(color.red)
+
