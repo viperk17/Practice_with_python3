@@ -29,6 +29,7 @@ print(Employee.fullname(emp1))
 
 # print(emp1.fullname())
 
+'''To input data normally'''
 # emp1.first = 'Prahant'
 # emp1.last = 'Singh'
 # emp1.email = 'prashant.singh@abc.com'
