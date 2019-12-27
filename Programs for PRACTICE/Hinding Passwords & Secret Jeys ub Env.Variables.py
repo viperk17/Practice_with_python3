@@ -7,3 +7,4 @@ db_password = 'my_db_pass_123!'
 
 print(db_user)
 print(db_password)
+
