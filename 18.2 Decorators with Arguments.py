@@ -11,7 +11,7 @@ def prefix_decorator(prefix):
     return decorator_function
 
 
-@prefix_decorator('Testing : ') #adds prefix before the print stats in wrapper func
+@prefix_decorator('Testing : ')  # adds prefix before the print stats in wrapper func
 def display_info(name, age):
     prefix_decorator('display_info ran with arguments ({}, {})'.format(name, age))
 

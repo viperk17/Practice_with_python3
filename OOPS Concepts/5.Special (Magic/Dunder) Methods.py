@@ -37,6 +37,7 @@ class Employee:
     def __len__(self):
         return len(self.fullname())
 
+
 emp1 = Employee('Prashant', 'Singh', 50000)
 emp2 = Employee('Test', 'User', 62000)
 """

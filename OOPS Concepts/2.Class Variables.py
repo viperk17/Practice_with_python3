@@ -1,6 +1,5 @@
 class Employee:
-
-    num_of_emps = 0 #counts no of employees
+    num_of_emps = 0  # counts no of employees
 
     raise_amount = 1.04
 
@@ -10,7 +9,7 @@ class Employee:
         self.pay = pay
         self.email = first + '.' + last + '@abc.com'
 
-        Employee.num_of_emps +=1    #counts no of employees
+        Employee.num_of_emps += 1  # counts no of employees
 
     def fullname(self):
         return '{} {}'.format(self.first, self.last)
@@ -26,12 +25,11 @@ emp2 = Employee('Test', 'User', 62000)
 
 print(Employee.num_of_emps)
 
-
 # print(Employee.raise_amount)
 # print(emp1.raise_amount)
 # print(emp2.raise_amount)
 
-#prints all information as dictionary
+# prints all information as dictionary
 # print(emp1.__dict__)
 # to print the output normally before declaring raise_amount in function:
 ''' def apply_raise(self):

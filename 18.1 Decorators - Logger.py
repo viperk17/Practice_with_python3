@@ -1,4 +1,4 @@
-#checking how many times logged in
+# checking how many times logged in
 
 def my_logger(orig_func):
     import logging
@@ -21,12 +21,15 @@ def my_timer(orig_func):
         t2 = time.time() - t1
         print('{} ran in : {} sec'.format(orig_func.__name__, t2))
         return result
+
     return wrapper()
+
 
 # @decorator_function# for class use - @decorator_class
 # def display():
 #     print('Display function ran...')
 import time
+
 
 # @my_timer
 @my_logger
@@ -34,8 +37,7 @@ def display_info(name, age):
     time.sleep(1)
     print('display_info ran with arguments ({}, {})'.format(name, age))
 
+
 display_info('Alfa', 24)
 
 # display
-
-

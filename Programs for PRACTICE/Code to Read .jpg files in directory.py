@@ -1,4 +1,4 @@
-#Prints jpg files present in the directory
+# Prints jpg files present in the directory
 import os, glob
 
 # help(glob)

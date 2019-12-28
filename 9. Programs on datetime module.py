@@ -17,7 +17,7 @@ import datetime
 # till_bday = bday - tday
 # print(till_bday.total_seconds())
 
-#datetime for all data
+# datetime for all data
 # dt = datetime.datetime(2017, 8, 29, 12, 20, 100000)
 # print(dt)
 

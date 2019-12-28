@@ -4,6 +4,8 @@ or add completely new functionality without effecting the parent class
 
 Example: Lets create developers and managers for employee class
 '''
+
+
 class Employee:
     num_of_emps = 0  # counts no of employees
     raise_amount = 1.04

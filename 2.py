@@ -3,13 +3,12 @@ import sys
 
 if __name__ == '__main__':
     n = int(input())
-if start ==0:
-    
+if start == 0:
 
-if n==0:
+if n == 0:
     pass
 else:
-    for i in range(1,n):
+    for i in range(1, n):
         print(i, end="")
     print()
 

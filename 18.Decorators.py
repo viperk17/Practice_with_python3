@@ -28,11 +28,15 @@ bye_func
 Decorator is a function that takes another function as an argument, adds some functionality
 and returns another functions without altering the source code
 '''
+
+
 def decorator_function(origional_function):
     def wrapper_function(*args, **kwargs):  # inner function has access to var message
         print('wrapper executed this before {}'.format(origional_function.__name__))
         return origional_function(*args, **kwargs)
+
     return wrapper_function
+
 
 # #Using class
 # class decorator_class(object):
@@ -43,15 +47,17 @@ def decorator_function(origional_function):
 #         print('call method executed this before {}'.format(self.origional_function.__name__))
 #         return self.origional_function(*args, **kwargs)
 
-@decorator_function# for class use - @decorator_class
+@decorator_function  # for class use - @decorator_class
 def display():
     print('Display function ran...')
+
 
 # decorated_display = decorator_function(display)
 # decorated_display()
 @decorator_function
 def display_info(name, age):
     print('display_info ran with arguments ({}, {})'.format(name, age))
+
 
 display_info('Josh', 28)
 

@@ -11,6 +11,7 @@ file_handler.setFormatter(formatter)
 
 logger.addHandler(file_handler)
 
+
 # logging.basicConfig(filename='employee.log', level=logging.INFO,
 #                     format='%(levelname)s:%(message)s')
 

@@ -31,7 +31,7 @@ import os
 #     print('Index does not exist')
 
 
-#Example from the python docs
+# Example from the python docs
 
 my_file = "/home/flyboypk/PycharmProjects/pract/studata.csv"
 
@@ -42,7 +42,7 @@ my_file = "/home/flyboypk/PycharmProjects/pract/studata.csv"
 # else:
 #     print("File could not be found")
 
-#No Race-COndition
+# No Race-COndition
 try:
     f = open(my_file)
 except IOError as e:

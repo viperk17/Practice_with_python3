@@ -1,5 +1,5 @@
-#This allows us to get our class attri getters setters and deleter functionality.
-#Property decorator allows us to define a method
+# This allows us to get our class attri getters setters and deleter functionality.
+# Property decorator allows us to define a method
 
 class Employee:
 
@@ -28,6 +28,7 @@ class Employee:
         self.first = None
         self.last = None
 
+
 emp1 = Employee('John', 'Smith')
 
 emp1.first = 'Jim'
@@ -37,8 +38,7 @@ print(emp1.first)
 print(emp1.email)
 print(emp1.fullname)
 
-#setter :: Define a setter method
+# setter :: Define a setter method
 # emp1.fullname = 'Alpha Romeo'
 del emp1.fullname
 # print(emp1.fullname)
-

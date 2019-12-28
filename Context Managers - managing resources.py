@@ -36,9 +36,10 @@
 # print(f.closed)
 
 
-#using OS module
+# using OS module
 import os
-from contextlib import  contextmanager
+from contextlib import contextmanager
+
 
 # cwd = os.getcwd()
 # os.chdir('Sample-Dir_One')
@@ -60,7 +61,8 @@ def change_dir(destnation):
     finally:
         os.chdir(cwd)
 
-with change_dir('pract'):
+
+with change_dir('Practice_with_python3'):
     print(os.listdir())
 
 with change_dir('PycharmProjects'):

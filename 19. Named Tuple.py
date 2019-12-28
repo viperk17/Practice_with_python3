@@ -17,4 +17,3 @@ Color = namedtuple('Color', ['red', 'green', 'blue'])
 color = Color(55, 125, 255)
 # white = Color(255,255,255)
 print(color.red)
-
