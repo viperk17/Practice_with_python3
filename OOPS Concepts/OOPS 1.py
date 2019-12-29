@@ -10,8 +10,6 @@ class Employee:
     def print_details(self):
         return f"Name is {self.name}. Salary is {self.salary}. ROle is {self.role}"
 
-harry = Employee()
-rohan = Employee()
 
 # harry.name = "Harry"
 # harry.salary = 455
