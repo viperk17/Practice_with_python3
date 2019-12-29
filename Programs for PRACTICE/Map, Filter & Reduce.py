@@ -58,4 +58,4 @@ print(num)
 # num = 0
 # for i in list2:
 #     num = num+i
-# print(num)
+# printpr(num)
