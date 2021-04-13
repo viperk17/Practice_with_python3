@@ -24,12 +24,3 @@ harry = Grandson()
 print(harry.is_dance())
 
 print(harry.basketball)
-
-
-"""
-EXERCISE:
-Classes:
-1. electronic device
-2. pocket gadget
-3. Phone
-"""

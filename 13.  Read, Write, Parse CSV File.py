@@ -2,7 +2,7 @@ import csv
 
 with open('sample.csv', 'r') as csv_file:
     csv_reader = csv.reader(csv_file)
-    # print(csv_reader)
+    print(csv_reader)
 
 ''' Using dictionary Reader'''
 with open('sample.csv', 'r') as csv_file:
@@ -17,8 +17,8 @@ with open('sample.csv', 'r') as csv_file:
     '''
     # next(csv_reader)
 
-    # with open('new_sample.csv','w') as ns:
-    #     csv_writer = csv.writer(ns, delimiter='\t')
-    #     for line in csv_reader:
-    #         csv_writer.writerow(line)
+    with open('new_sample.csv', 'w') as ns:
+        csv_writer = csv.writer(ns, delimiter='\t')
+        for line in csv_reader:
+            csv_writer.writerow(line)
     #

@@ -1,7 +1,9 @@
 # Decorators : Dynamically Alter the functionality of the function
 '''
 first class functions allow us to treat functions like any other objects
-We can pass functions as arguments to other functions. Closure allows us to take advantage of first class function and return inner function that remember and has access var local to the scope in which they were created
+We can pass functions as arguments to other functions. Closure allows us
+to take advantage of first class function and return inner function that
+remember and has access var local to the scope in which they were created
 '''
 
 # def outer_function():

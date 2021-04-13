@@ -43,9 +43,9 @@
 import datetime
 import calendar
 
-balance = 10000
+balance = 100000
 interest_rate = 13 * .01
-monthly_payment = 1000
+monthly_payment = 10000
 
 today = datetime.date.today()
 days_in_current_month = calendar.monthrange(today.year, today.month)[1]

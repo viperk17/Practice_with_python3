@@ -19,8 +19,8 @@ class Employee:
 # rohan.salary = 5664
 # rohan.role = "Student"
 
-# print(Employee.no_of_leaves)
-# print(Employee.__dict__)
-# Employee.no_of_leaves = 9
+print(Employee.no_of_leaves)
+print(Employee.__dict__)
+Employee.no_of_leaves = 9
 
 print(Employee.no_of_leaves)

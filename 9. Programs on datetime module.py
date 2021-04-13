@@ -1,20 +1,23 @@
 import datetime
 
-# d = datetime.date(2019, 12, 25)
+d = datetime.date(2019, 12, 25)
 # print (d)
 
 
-# tday= datetime.date.today()
-# # print(tday.weekday()) #to print which day is today in week
+tday= datetime.date.today()
+print('Today is: ', tday)
+# print(tday.weekday()) #to print which day is today in week
 # #
-# # print((tday.isoweekday()))
+# print((tday.isoweekday()))
 #
 # #date after one week from now
-# # tdelta = datetime.timedelta(days=7)
-# # print(tday + tdelta)
+# tdelta = datetime.timedelta(days=7)
+# print(tdelta)
+# print(tday + tdelta)
 #
 # bday = datetime.date(1995, 4, 17)
 # till_bday = bday - tday
+# print(till_bday)
 # print(till_bday.total_seconds())
 
 # datetime for all data

@@ -40,7 +40,7 @@ class Employee:
 
 # Regular method auto pass instance as first argument eg. self
 # Class method auto pass instance as first argument eg. cls
-# Static method dont pass anything automatically. Dont pass instance for the class
+# Static method don't pass anything automatically. Don't pass instance for the class
 #
 # Example: Lets take a simple func that take in a date and return whether or not it
 # is a workday. It doesnt depend on any specific instance or class variable.

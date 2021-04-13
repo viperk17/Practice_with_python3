@@ -22,5 +22,5 @@ def days_in_month(year, month):
     return month_days[month]
 
 
-print(is_leap(2016))
-print(days_in_month(2016, 2))
+print(is_leap(2022))
+print(days_in_month(2021, 2))

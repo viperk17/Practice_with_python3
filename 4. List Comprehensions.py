@@ -56,6 +56,7 @@
 # # Sorting without using .sort()
 #  
 #
+
 # # while courses:
 # #     min = courses[0]    # arbitrary in list
 # #     for x in courses:

@@ -51,6 +51,8 @@ from contextlib import contextmanager
 # print(os.listdir())
 # os.chdir()
 
+
+
 @contextmanager
 def change_dir(destnation):
     try:
@@ -62,8 +64,8 @@ def change_dir(destnation):
         os.chdir(cwd)
 
 
-with change_dir('Practice_with_python3'):
-    print(os.listdir())
+# with change_dir('Practice_with_python3'):
+#     print(os.listdir())
 
 with change_dir('PycharmProjects'):
     print(os.listdir())

@@ -18,7 +18,7 @@ logger.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s:%(levelname)s:%(message)s')
 
 file_handler = logging.FileHandler('test.log')
-file_handler.setLevel(logger.ERROR())
+file_handler.setLevel(logger.DEBUG())
 file_handler.setFormatter(formatter)
 
 # to show in console

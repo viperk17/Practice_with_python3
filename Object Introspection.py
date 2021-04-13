@@ -40,6 +40,6 @@ print(skillf.email)
 # # print(dir(0))
 # print(dir(skillf))
 
-import inspect
-
-print(inspect.getmembers(skillf))   #inspecting the members
+# import inspect
+#
+# print(inspect.getmembers(skillf))  # inspecting the members

@@ -50,8 +50,8 @@ OUPUT: <__main__.Employee object at 0x7f2ab1d29860>
 To fix this we will se def __repr__ & __str__
 """
 # print(emp1)
-# print(repr(emp1))
-# print(str(emp1))
+print(repr(emp1))
+print(str(emp1))
 # similar to below
 # print(emp1.__repr__())
 # print(emp1.__str__())

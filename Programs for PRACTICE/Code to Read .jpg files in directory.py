@@ -1,5 +1,6 @@
 # Prints jpg files present in the directory
-import os, glob
+import glob
+import os
 
 # help(glob)
 os.chdir("/home/flyboypk/Downloads")

@@ -40,5 +40,5 @@ print(Employee.num_of_emps)
 # print(emp1.pay)
 #
 # print(emp2.pay)
-# emp2.apply_raise()
-# print(emp2.pay)
+emp2.apply_raise()
+print(emp2.pay)

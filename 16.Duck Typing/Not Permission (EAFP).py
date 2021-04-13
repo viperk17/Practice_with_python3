@@ -42,7 +42,7 @@ my_file = "/home/flyboypk/PycharmProjects/pract/studata.csv"
 # else:
 #     print("File could not be found")
 
-# No Race-COndition
+# No Race-Condition
 try:
     f = open(my_file)
 except IOError as e:

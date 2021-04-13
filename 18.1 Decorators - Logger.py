@@ -38,6 +38,6 @@ def display_info(name, age):
     print('display_info ran with arguments ({}, {})'.format(name, age))
 
 
-display_info('Alfa', 24)
-
+a=display_info('Alfa', 24)
+print(a)
 # display

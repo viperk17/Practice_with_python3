@@ -40,7 +40,7 @@ and create a pattern as it consists of 3 digits - and dots(period)'''
 # pattern = re.compile(r'\d\d\d[-.]\d\d\d[-.]d\d\d\d')
 
 
-# pattern = re.compile(r'[1-5]')     #prinnts 1 to 5 as range
+# pattern = re.compile(r'[1-5]')     #prints 1 to 5 as range
 # pattern = re.compile(r'[a-z')      #print a to z
 # pattern = re.compile(r'[a-zA-Z')   #upper and lower case letter both
 # pattern = re.compile(r'^a-zA-Z')   #print not lower & upper case, we get newline etc

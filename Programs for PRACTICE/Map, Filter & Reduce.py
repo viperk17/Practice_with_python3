@@ -1,4 +1,4 @@
-#map function converts a string,etc into a list
+# map function converts a string,etc into a list
 # numbers = ["3","4","5","25"]
 #
 # print(map(int, numbers))
@@ -19,7 +19,6 @@
 #
 # square = list(map(sq, num))
 # print(square)
-
 
 
 ################################## Using Lambda ###########
@@ -46,14 +45,13 @@
 
 
 ###################### REDUCE #######################
-#part of fuc tools
+# part of func tools
 from functools import reduce
 
-list2 = [1,2,3,4]
-
-num = reduce(lambda x,y : x+y, list2)
+list2 = [1, 2, 3, 4]
 print(num)
-
+num = reduce(lambda x, y: x + y, list2)
+print(num)
 
 # num = 0
 # for i in list2:

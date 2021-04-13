@@ -3,11 +3,15 @@
 #     pass
 
 #
-# with open('10. Modules.py','r') as f:
-#
-#     # for line in f:
-#     #     print(line, end='')
-#
+try:
+    with open('employee.py','r') as f:
+        for line in f:
+            print(line, end='')
+    
+    f.close()
+
+except FileNotFoundError as e:
+    print(e)
 #     f_contents = f.read(10)  #read all data
 #     print(f_contents, end = '\n@')
 #
@@ -28,10 +32,11 @@
 
 
 # chunk file size
-with open('test.txt', 'r') as m:  # create a file in write mode
-    with open('test1.txt', 'w') as wf:
-        chunk_size = 4096
-        m_chunk = m.read(chunk_size)
+# with open('test.txt', 'r') as m:  # create a file in write mode
+#     with open('test1.txt', 'w') as wf:
+#         chunk_size = 4096
+#         m_chunk = m.read(chunk_size)
+#         print(m_chunk)
 
 # # print(f.mode)
 # # f.close()
