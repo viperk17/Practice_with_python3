@@ -1,6 +1,6 @@
 import os
 
-os.chdir('/home/flyboypk/Downloads/')
+os.chdir('/home/viper/Downloads/')
 
 print(os.getcwd())
 for f in os.listdir():
@@ -14,7 +14,7 @@ for f in os.listdir():
 
     # f_title = f_title.strip()
     # f_course = f_course.strip()
-    # f_num = f_num.strip()[1:]
+    # f_num = f_num.strip()[1:].zfill(2)
 
     # f_title, f_num, f_course = f_name.split('-')
     # print((f_course))
