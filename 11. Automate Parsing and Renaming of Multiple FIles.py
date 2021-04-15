@@ -1,5 +1,6 @@
 import os
 
+
 os.chdir('/home/viper/Downloads/')
 
 print(os.getcwd())
@@ -14,7 +15,7 @@ for f in os.listdir():
 
     # f_title = f_title.strip()
     # f_course = f_course.strip()
-    # f_num = f_num.strip()[1:].zfill(2)    # .zfill() adds 0 to one digit numbers
+    # f_num = f_num.strip()[1:].zfill(2)    # .zfill() adds 0 to one digit numbers 
 
     # f_title, f_num, f_course = f_name.split('-')
     # print((f_course))
