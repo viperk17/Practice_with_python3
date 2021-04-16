@@ -1,6 +1,6 @@
 import datetime
 
-d = datetime.date(2019, 12, 25)
+# d = datetime.date(2019, 12, 25)
 # print (d)
 
 
@@ -16,7 +16,7 @@ print('Today is: ', tday)
 # print(tday + tdelta)
 #
 # bday = datetime.date(1995, 4, 17)
-# till_bday = bday - tday
+# till_bday = tday - bday
 # print(till_bday)
 # print(till_bday.total_seconds())
 
