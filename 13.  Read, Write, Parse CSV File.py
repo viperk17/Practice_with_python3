@@ -48,11 +48,11 @@
 
 ############################################ Writing With Files ####################################
 
-# for jpg file use rb or wb
-with open('test.txt','r') as rf:
-    with open('test_copy.txt','w') as wf:
-        for line in rf:
-            wf.write(line)
+# # for jpg file use rb or wb
+# with open('test.txt','r') as rf:
+#     with open('test_copy.txt','w') as wf:
+#         for line in rf:
+#             wf.write(line)
 
 
 ############################################### END ################################################
